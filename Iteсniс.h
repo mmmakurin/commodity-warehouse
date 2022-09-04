@@ -3,10 +3,10 @@
 #include <iostream>
 using namespace std;
 
-class Iteñniñ
+class Itecnic
 {
 public:
-    virtual ~Iteñniñ() = default;
+    virtual ~Itecnic() = default;
     virtual void Show() = 0 { cout << "Tecnic Item" << endl; };
 };
 

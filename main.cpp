@@ -2,13 +2,14 @@
 #include "appliances.h"
 #include "electro.h"
 #include "ñonditioner.h"
+#include "Iteñniñ.h"
 
 using namespace std;
 
 int main()
 {
     setlocale(LC_ALL, "rus");
-    Iteñniñ* tech[4];
+    Itecnic* tech[4];
 
     tech[0] = new refrigerators(36, -12);
     tech[1] = new tv(24, 56.7);

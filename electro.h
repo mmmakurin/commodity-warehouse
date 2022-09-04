@@ -1,6 +1,6 @@
 #pragma once
 #include "Iteñniñ.h"
-class electro : virtual public Iteñniñ
+class electro : virtual public Itecnic
 {
 public:
 	electro(int warranty);

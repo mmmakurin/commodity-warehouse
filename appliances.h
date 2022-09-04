@@ -1,6 +1,6 @@
 #pragma once
 #include "Iteñniñ.h"
-class appliances : virtual public Iteñniñ
+class appliances : virtual public Itecnic
 {
 public :
 	appliances(int avgWorkTime);
