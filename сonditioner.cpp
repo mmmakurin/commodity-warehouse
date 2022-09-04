@@ -1,10 +1,10 @@
-#include "ñonditioner.h"
+#include "conditioner.h"
 
-ñonditioner::ñonditioner(int warranty, int avgWorkTime) : electro(warranty), appliances(avgWorkTime)
+conditioner::conditioner(int warranty, int avgWorkTime) : electro(warranty), appliances(avgWorkTime)
 {
 }
 
-void ñonditioner::Show()
+void conditioner::Show()
 {
 	cout << "conditioner: warranty " << _warranty << " avgWorkTime " << _avgWorkTime << endl;
 }

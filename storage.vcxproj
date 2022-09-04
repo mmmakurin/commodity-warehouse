@@ -129,8 +129,8 @@
   <ItemGroup>
     <ClInclude Include="appliances.h" />
     <ClInclude Include="electro.h" />
-    <ClInclude Include="Iteсniс.h" />
-    <ClInclude Include="сonditioner.h" />
+    <ClInclude Include="Itecnic.h" />
+    <ClInclude Include="conditioner.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="appliances.cpp" />

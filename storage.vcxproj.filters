@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Iteсniс.h">
+    <ClInclude Include="Itecnic.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="electro.h">
@@ -24,7 +24,7 @@
     <ClInclude Include="appliances.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="сonditioner.h">
+    <ClInclude Include="conditioner.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

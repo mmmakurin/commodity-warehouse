@@ -1,8 +1,8 @@
 #include <iostream>
 #include "appliances.h"
 #include "electro.h"
-#include "ñonditioner.h"
-#include "Iteñniñ.h"
+#include "conditioner.h"
+#include "Itecnic.h"
 
 using namespace std;
 
@@ -14,7 +14,7 @@ int main()
     tech[0] = new refrigerators(36, -12);
     tech[1] = new tv(24, 56.7);
     tech[2] = new wMachine(60, 12);
-    tech[3] = new ñonditioner(72, 84);
+    tech[3] = new conditioner(72, 84);
 
     bool open = true;
     while (open)

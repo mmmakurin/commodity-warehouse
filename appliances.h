@@ -1,5 +1,5 @@
 #pragma once
-#include "Iteñniñ.h"
+#include "Itecnic.h"
 class appliances : virtual public Itecnic
 {
 public :
