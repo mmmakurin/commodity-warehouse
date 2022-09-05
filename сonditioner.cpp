@@ -6,5 +6,5 @@ conditioner::conditioner(int warranty, int avgWorkTime) : electro(warranty), app
 
 void conditioner::Show()
 {
-	cout << "conditioner: warranty " << _warranty << " avgWorkTime " << _avgWorkTime << endl;
+	cout << "conditioner: warranty " << _warranty << endl << "avgWorkTime " << _avgWorkTime << endl;
 }

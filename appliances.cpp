@@ -16,5 +16,5 @@ wMachine::wMachine(int avgWorkTime, int rpm) :appliances(avgWorkTime), _rpm(rpm)
 
 void wMachine::Show()
 {
-    cout << "average working time: " << _avgWorkTime << " number of revolutions: " << _rpm << endl;
+    cout << "average working time: " << _avgWorkTime << endl << "number of revolutions: " << _rpm << endl;
 }

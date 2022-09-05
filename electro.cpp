@@ -16,7 +16,7 @@ refrigerators::refrigerators(int warranty, int tChamber) : electro(warranty), _t
 
 void refrigerators::Show()
 {
-    cout << "warranty: " << _warranty << " freezer temperature: " << _tChamber << endl;
+    cout << "warranty: " << _warranty << endl << "freezer temperature: " << _tChamber << endl;
 }
 
 tv::tv(int warranty, double inch) : electro(warranty), _inch(inch)
@@ -25,5 +25,5 @@ tv::tv(int warranty, double inch) : electro(warranty), _inch(inch)
 
 void tv::Show()
 {
-    cout << "warranty: " << _warranty << " tv inch: " << _inch << endl;
+    cout << "warranty: " << _warranty << endl << "tv inch: " << _inch << endl;
 }

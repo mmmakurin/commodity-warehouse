@@ -19,7 +19,7 @@ int main()
     bool open = true;
     while (open)
     {
-        cout << "Выберите технику : 1 - холодильник, 2 - телевизор, 3 - стиральная машина, 4 - кондиционер, 0 чтобы выйти" << endl;
+        cout << "Choose the equipment: 1 - refrigerator, 2 - TV, 3 - washing machine, 4 - air conditioning, 0 to get out" << endl;
         int choice;
         cin >> choice;
         switch (choice)
@@ -45,7 +45,7 @@ int main()
             break;
 
         default:
-            cout << "Выберите технику от 1 до 4 или 0, чтобы выйти" << endl;
+            cout << "Select a technique from 1 to 4 or 0 to exit" << endl;
             break;
         }
     }
